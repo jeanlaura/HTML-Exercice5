@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <title>Exercice 5</title>
+    <style media="screen">
+      body{
+        width: 416px;
+      }
+      p{
+        margin: 0 auto;
+      }
+      .titre{
+        text-align: center;
+      }
+      .ligne1{
+        font-weight: bold;
+        text-align: center;
+      }
+      #table{
+        border-collapse:collapse;
+      }
+      th, td, tfoot{
+        border: 1px solid black;
+      }
+      .colonnefin{
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <p class="titre">Mon compte BNP</p>
+    <table id="table" border="1">
+      <thead>
+        <tr class="ligne1">
+          <th>Date</td>
+          <th>Libellé</td>
+          <th>Crédit</td>
+          <th>Débit</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>01/05/2016</td>
+          <td>Paye</td>
+          <td>1500</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>01/05/2016</td>
+          <td>Courses de la semaine</td>
+          <td>0</td>
+          <td>152,30</td>
+        </tr>
+        <tr>
+          <td>04/05/2016</td>
+          <td>Mc Do</td>
+          <td>0</td>
+          <td>32,40</td>
+        </tr>
+        <tr>
+          <td>05/05/2016</td>
+          <td>Loyer</td>
+          <td>0</td>
+          <td>700</td>
+        </tr>
+        <tr>
+          <td>05/05/2016</td>
+          <td>Internet</td>
+          <td>0</td>
+          <td>39,90</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr class="colonnefin">
+          <td colspan="2">Solde</td>
+          <td colspan="2">575,40</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
